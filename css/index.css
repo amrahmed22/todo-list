@@ -1,0 +1,195 @@
+
+
+
+.dark-mode {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.dark-mode .add {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+.light-mode {
+    background-color: #fff !important;
+    color: #000 !important;
+
+}
+.light-mode .add {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+
+td,
+th {
+    border-radius: 0px !important;
+    
+}
+
+
+.header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#taskInput {
+    margin: auto;
+    padding: 8px;
+    border-radius: 10px;
+    width: 400px;
+    margin-right: 5px;
+    height: 40px;
+
+}
+
+
+
+table {
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+
+
+}
+
+table tbody {
+    /* background-color: lightblue; */
+    margin-top: 20px;
+}
+
+table td,
+table th {
+    padding: 10px 60px;
+    border-radius: 5px;
+
+
+}
+
+.delete {
+    background-color: rgb(252, 61, 61) !important;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px !important;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.check {
+    height: 25px;
+    width: 25px;
+    accent-color: green;
+
+
+}
+
+.check:hover {
+    cursor: pointer;
+}
+
+.add {
+    width: 60px !important;
+    height: 60px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% !important;
+    position: absolute;
+    right: -8px;
+    top: -10px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.nav {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #09c;
+    border: none;
+    color: #fff;
+}
+
+select {
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 600;
+
+}
+
+select:focus {
+
+    outline: none;
+}
+
+
+
+
+.add:focus{
+    outline: none;
+    border: #fff solid 2px;
+}
+
+
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.toggle-button {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    border: #fff solid 2px;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #666;
+}
+input{
+    outline: none;
+    border: 2px solid #000 !important ;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #000 !important ;
+}
+
+
+  #confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+  }
