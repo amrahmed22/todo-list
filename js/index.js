@@ -141,7 +141,7 @@ function display(arr) {
 
 
 function validName(name) {
-    var regex = /\p{L}+/gu;
+    var regex = /\p{L}{2,}/gu;
     if (regex.test(name) == true) {
         document.getElementById("nameError").classList.replace("d-block", "d-none")
         //  
@@ -150,7 +150,7 @@ function validName(name) {
     else {
 
         document.getElementById("nameError").classList.replace("d-none", "d-block")
-        document.getElementById("nameError").innerText = " invalid name min 2 chars max 15 "
+        document.getElementById("nameError").innerText = " invalid name min 2 letters  "
         return false
     }
 
