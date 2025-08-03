@@ -1,4 +1,4 @@
-
+const audio = document.getElementById('myAudio');
 
 var input = document.getElementById("taskInput");
 
@@ -43,6 +43,7 @@ function deleteTask(i) {
 
 function checkTask(i) {
     if (array[i].isDone == false) {
+        audio.play();
         fire()
     }
     var checkbox = document.getElementById(`check${i}`)
